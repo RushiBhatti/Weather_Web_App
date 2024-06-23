@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(86, 63, 59);
+}
+
+#outerDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 5%;
+    /* margin-left: 90px; */
+    height: 450px;
+    width: 350px;
+    border-radius: 14px;
+    background-color: rgb(232, 252, 252);
+    padding: 10px 0px 30px 10px;
+}
+
+form input{
+    border-radius: 7px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#imageC img{
+    width: 200px;
+    border-radius: 14px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+#smallButtons span{
+    padding: 0px 4px;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 5px;
+    color: blue;
+    margin-right: 10px;
+}
+
+#smallButtons span:first-child{
+    color: rgb(39, 76, 100);
+}
+
+#smallButtons{
+    margin-top: 10px;
+}
+
+#content{
+    margin-top: 10px;
+}
+
+#content p{
+    margin-top: 0px;
+    font-size: 15px;
+    justify-content: center;
+    color: rgb(59, 58, 58);
+}
+
+#content h2{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.bottomCards{
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1{
+    width: 130px;
+    height: 100px;
+    padding: 0px 5px;
+}
+
+.card2{
+    padding: 0px 15px;
+}
+
+.card2 .cardImg{
+    padding-left: 25%;
+}
+
+.cardImg{
+    padding-left: 10%;
+    width: 60px;
+}
